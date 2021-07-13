@@ -3,7 +3,7 @@ import defaultImage from '../../picture/default.jpg';
 import PropTypes from 'prop-types';
 import './FriendList.css';
 
-export const FriendList = ({ friends }) => {
+const FriendList = ({ friends }) => {
   return (
     <ul className="FriendList__list">
       {friends.map(({ avatar, name, isOnline = true, id }) => (
@@ -33,3 +33,5 @@ FriendList.propTypes = {
     }),
   ).isRequired,
 };
+
+export default FriendList;

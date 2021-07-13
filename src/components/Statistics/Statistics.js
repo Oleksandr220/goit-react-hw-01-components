@@ -6,7 +6,7 @@ function generateColor() {
   return '#' + Math.floor(Math.random() * 16777215).toString(16);
 }
 
-export const Statistics = ({ title, stats }) => {
+const Statistics = ({ title, stats }) => {
   return (
     <section className="statistics">
       <h2 className="statistics__title">{title}</h2>
@@ -19,7 +19,7 @@ export const Statistics = ({ title, stats }) => {
             style={{ backgroundColor: generateColor() }}
           >
             <span className="label">{label}</span>
-            <span className="percentage">{percentage}</span>
+            <span className="percentage">{percentage}%</span>
           </li>
         ))}
       </ul>
@@ -40,3 +40,5 @@ Statistics.propTypes = {
     }),
   ).isRequired,
 };
+
+export default Statistics;

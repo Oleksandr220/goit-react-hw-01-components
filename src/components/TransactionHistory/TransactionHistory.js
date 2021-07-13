@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './TransactionHistory.css';
 
-export const TransactionHistory = ({ items }) => {
+const TransactionHistory = ({ items }) => {
   return (
     <table className="transactionHistory">
       <thead>
@@ -36,3 +36,5 @@ TransactionHistory.propTypes = {
     }),
   ).isRequired,
 };
+
+export default TransactionHistory;

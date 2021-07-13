@@ -3,15 +3,7 @@ import defaultImage from '../../picture/default.jpg';
 import PropTypes from 'prop-types';
 import './Profile.css';
 
-export const Profile = ({
-  name,
-  tag,
-  location,
-  avatar,
-  followers,
-  views,
-  likes,
-}) => {
+const Profile = ({ name, tag, location, avatar, followers, views, likes }) => {
   return (
     <div className="profile">
       <div className="description">
@@ -57,3 +49,5 @@ Profile.propTypes = {
   views: PropTypes.number.isRequired,
   likes: PropTypes.number.isRequired,
 };
+
+export default Profile;
