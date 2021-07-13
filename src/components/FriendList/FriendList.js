@@ -1,14 +1,17 @@
-import React from "react";
-import defaultImage from "../../picture/default.jpg";
-import PropTypes from "prop-types";
-// import style from './FriendList.css'
+import React from 'react';
+import defaultImage from '../../picture/default.jpg';
+import PropTypes from 'prop-types';
+import './FriendList.css';
 
 export const FriendList = ({ friends }) => {
   return (
-    <ul>
+    <ul className="FriendList__list">
       {friends.map(({ avatar, name, isOnline = true, id }) => (
         <li className="item" key={id}>
-          <span className="status">{isOnline}</span>
+          <span
+            className="status"
+            style={{ backgroundColor: isOnline ? 'green' : 'red' }}
+          ></span>
           <img className="avatar" src={avatar} alt={name} width="48" />
           <p className="name">{name}</p>
         </li>
@@ -27,6 +30,6 @@ FriendList.propTypes = {
       name: PropTypes.string.isRequired,
       id: PropTypes.number.isRequired,
       isOnline: PropTypes.oneOf([true, false]),
-    })
+    }),
   ).isRequired,
 };

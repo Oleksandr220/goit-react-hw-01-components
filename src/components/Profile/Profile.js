@@ -1,7 +1,7 @@
-import React from "react";
-import defaultImage from "../../picture/default.jpg";
-import PropTypes from "prop-types";
-// import style from './Profile.css'
+import React from 'react';
+import defaultImage from '../../picture/default.jpg';
+import PropTypes from 'prop-types';
+import './Profile.css';
 
 export const Profile = ({
   name,
@@ -18,7 +18,7 @@ export const Profile = ({
         <img
           src={avatar}
           alt="Аватар пользователя"
-          className="{avatar}"
+          className="profile__avatar"
           width="480"
         />
         <p className="name">{name}</p>
@@ -27,17 +27,17 @@ export const Profile = ({
       </div>
 
       <ul className="stats">
-        <li>
+        <li className="stats-list">
           <span className="label">Followers</span>
-          <span className="quantity">: {followers}</span>
+          <span className="quantity"> {followers}</span>
         </li>
-        <li>
+        <li className="stats-list">
           <span className="label">Views</span>
-          <span className="quantity">: {views}</span>
+          <span className="quantity"> {views}</span>
         </li>
-        <li>
+        <li className="stats-list">
           <span className="label">Likes</span>
-          <span className="quantity">: {likes}</span>
+          <span className="quantity"> {likes}</span>
         </li>
       </ul>
     </div>
