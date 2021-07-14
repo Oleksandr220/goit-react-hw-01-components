@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Oleksandr220/goit-react-hw-01-components/static/css/main.753716ea.chunk.css",
-    "main.js": "/Oleksandr220/goit-react-hw-01-components/static/js/main.a0a57481.chunk.js",
-    "main.js.map": "/Oleksandr220/goit-react-hw-01-components/static/js/main.a0a57481.chunk.js.map",
-    "runtime-main.js": "/Oleksandr220/goit-react-hw-01-components/static/js/runtime-main.cab1168b.js",
-    "runtime-main.js.map": "/Oleksandr220/goit-react-hw-01-components/static/js/runtime-main.cab1168b.js.map",
-    "static/js/2.64d298ef.chunk.js": "/Oleksandr220/goit-react-hw-01-components/static/js/2.64d298ef.chunk.js",
-    "static/js/2.64d298ef.chunk.js.map": "/Oleksandr220/goit-react-hw-01-components/static/js/2.64d298ef.chunk.js.map",
-    "index.html": "/Oleksandr220/goit-react-hw-01-components/index.html",
-    "static/css/main.753716ea.chunk.css.map": "/Oleksandr220/goit-react-hw-01-components/static/css/main.753716ea.chunk.css.map",
-    "static/js/2.64d298ef.chunk.js.LICENSE.txt": "/Oleksandr220/goit-react-hw-01-components/static/js/2.64d298ef.chunk.js.LICENSE.txt",
-    "static/media/default.2e01288c.jpg": "/Oleksandr220/goit-react-hw-01-components/static/media/default.2e01288c.jpg"
+    "main.css": "/oleksandr220/goit-react-hw-01-components/static/css/main.753716ea.chunk.css",
+    "main.js": "/oleksandr220/goit-react-hw-01-components/static/js/main.a0a57481.chunk.js",
+    "main.js.map": "/oleksandr220/goit-react-hw-01-components/static/js/main.a0a57481.chunk.js.map",
+    "runtime-main.js": "/oleksandr220/goit-react-hw-01-components/static/js/runtime-main.85b3d8d5.js",
+    "runtime-main.js.map": "/oleksandr220/goit-react-hw-01-components/static/js/runtime-main.85b3d8d5.js.map",
+    "static/js/2.64d298ef.chunk.js": "/oleksandr220/goit-react-hw-01-components/static/js/2.64d298ef.chunk.js",
+    "static/js/2.64d298ef.chunk.js.map": "/oleksandr220/goit-react-hw-01-components/static/js/2.64d298ef.chunk.js.map",
+    "index.html": "/oleksandr220/goit-react-hw-01-components/index.html",
+    "static/css/main.753716ea.chunk.css.map": "/oleksandr220/goit-react-hw-01-components/static/css/main.753716ea.chunk.css.map",
+    "static/js/2.64d298ef.chunk.js.LICENSE.txt": "/oleksandr220/goit-react-hw-01-components/static/js/2.64d298ef.chunk.js.LICENSE.txt",
+    "static/media/default.2e01288c.jpg": "/oleksandr220/goit-react-hw-01-components/static/media/default.2e01288c.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.cab1168b.js",
+    "static/js/runtime-main.85b3d8d5.js",
     "static/js/2.64d298ef.chunk.js",
     "static/css/main.753716ea.chunk.css",
     "static/js/main.a0a57481.chunk.js"
