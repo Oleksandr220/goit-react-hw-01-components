@@ -5,11 +5,7 @@
   background-color: #fff;
   text-align: center;
   width: 600px;
-  height: 200px;
-}
-
-.statistics__title {
-  padding: 20px 0;
+  height: 100%;
 }
 
 .stat-list {
@@ -20,7 +16,7 @@
 }
 
 .statistics__item {
-  height: 100px;
+  height: 90px;
   font-size: 32px;
   justify-content: center;
   width: 100%;
